@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 def greet_programmer():
-     print ("Hello, progarammer!")
+     print ("Hello, programmer!")
 greet_programmer()
 
 def greet(name):
@@ -13,10 +13,11 @@ def greet_with_default(name="programmer"):
 greet_with_default()
 
 def add(num1, num2):
-    print (num1 + num2)
-add(4,4)
+    return num1 + num2
+add(45,55)
 
 def halve(number):
     if number != "number":
-        print ("null") 
-halve (100 / 2)
+        return number / 2
+    else:
+        return None
